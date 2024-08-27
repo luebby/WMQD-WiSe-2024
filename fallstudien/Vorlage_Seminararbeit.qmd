@@ -1,0 +1,81 @@
+---
+title: "Ihr Titel"
+author: "Autor:in 1, Autor:in 2, Autor:in 3"
+lang: de
+date: today
+format:
+  html:
+    toc: true
+    html-math-method: katex
+  pdf:
+    toc: true
+    number-sections: false
+    colorlinks: true 
+    papersize: a4
+---
+
+```{r}
+#| label: setup
+#| include: false
+# Vektor für pi unter dem Namen ppi bereitstellen
+ppi <- seq(from = 0, to = 1, by = 1/1000)
+
+# Paket mosaic aktivieren
+library(mosaic)
+```
+
+# Problem
+
+Beschreiben Sie hier, welche Fragestellung Sie analysieren wollen.
+
+## Prior-Verteilung^[Autor:in 1]
+
+Spezifizieren und begründen Sie hier Ihre Prior-Verteilung von $\pi$. 
+
+```{r prior}
+# Analysieren Sie hier die Prior-Verteilung für pi.
+
+```
+
+# Plan
+
+In diesem Abschnitt erläutern und begründen Sie, wie Sie die Daten genau erheben wollen. 
+
+# Data
+
+Beschreiben Sie hier genau, wann, wo und wie Sie die Daten erhoben haben. Geben Sie hier außerdem die gesammelten Daten ein und kontrollieren Sie diese. Gehen Sie auch auf eventuelle Abweichungen zum Plan ein.
+
+```{r data}
+# Geben Sie hier Ihre Daten ein.
+
+```
+
+# Analysis
+
+In diesem Abschnitt erfolgt die bayessche Analyse der Daten durch Abbildungen und Kennzahlen. 
+
+## Likelihood^[Autor:in 2]
+
+Analysieren Sie die Likelihood der Daten.
+
+```{r likelihood}
+# Analysieren Sie hier die Likelihood der Daten.
+
+```
+
+## Posterior-Verteilung^[Autor:in 3]
+
+Analysieren Sie ausführlich die Posterior-Verteilung von $\pi$.
+
+```{r}
+# Analysieren Sie hier die Posterior-Verteilung für pi.
+
+```
+
+# Conclusion
+
+Geben Sie die Antwort auf Ihre Fragestellung aus dem Abschnitt Problem. 
+
+Gehen Sie auch auf Limitationen und Grenzen Ihres Projektes ein. 
+
+Welche neuen Fragestellungen schließen sich an?
